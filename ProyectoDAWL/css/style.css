@@ -399,3 +399,47 @@ section .btn{
         font-size: 50%;
     }
 }
+/****************************************** Estilos para el footer ********************************************************************************/
+.footer {
+    background: var(--orange);
+    padding: 1rem 0.5rem;
+    text-align: center;
+    color: var(--text-color-3);
+    font-size: 1.1rem; 
+    border-top: 2px solid var(--orange);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+    margin: 0.5rem; 
+    padding: 0.5rem; 
+}
+
+.footer-license {
+    text-align: center;
+}
+
+
+.footer a {
+    text-decoration: none;
+    color: var(--text-color-3);
+}
+
+
+ul {
+    list-style-type: none; 
+}
