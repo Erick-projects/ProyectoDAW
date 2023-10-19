@@ -27,7 +27,7 @@ Este proyecto tiene como objetivo desarrollar una aplicación para la gestión d
 - Diseño de la página de login con campos para nombre de usuario y contraseña.
 - Desarrollo del backend para procesar la información de inicio de sesión y registro de nuevos usuarios.
 
-### 5. Creación del Footer y Licencias Creative Commons (Fecha de inicio: 08/10/2023)
+### 5. Creación del Footer y Licencias Creative Commons (Fecha de inicio: 15/10/2023)
 
 - Incorporación del footer en la página web.
 - Adición de las licencias Creative Commons para cumplir con los requisitos legales.
@@ -40,7 +40,7 @@ Este proyecto tiene como objetivo desarrollar una aplicación para la gestión d
 
 - Inicialización del repositorio en GitHub para el seguimiento y colaboración del equipo.
 
-### 8. Implementación del Sistema de Predicciones (Fecha de inicio: 15/10/2023)
+### 8. Implementación del Sistema de Predicciones (Fecha de inicio: 19/10/2023)
 
 - Diseño e implementación del formulario y tabla para realizar predicciones de los encuentros deportivos.
 
@@ -50,14 +50,13 @@ Este proyecto tiene como objetivo desarrollar una aplicación para la gestión d
 
 ## Última Actualización
 
-Fecha de última actualización: 18/10/2023
+Fecha de última actualización: 19/10/2023
 
 ## Metodología de Trabajo
 
-El equipo sigue una metodología de trabajo orientada a Scrum, con reuniones diarias para evaluar el progreso y sprints regulares para el desarrollo. Realizamos reuniones semanales cortas y enfocadas, conocidas como Daily Standups, para mantener a todo el equipo actualizado sobre el progreso del proyecto. Cada miembro comparte brevemente:
+Para la gestión efectiva de nuestro proyecto de Quinielas Deportivas, hemos decidido adoptar la metodología ágil Scrum. Esta metodología se basa en la iteración continua y en la colaboración estrecha entre los miembros del equipo para lograr resultados de alta calidad. 
 
-- Tareas que realizará hoy durante la semana.
-- Cualquier duda.
+Este enfoque de Scrum nos permitirá abordar nuestro proyecto de manera iterativa y adaptativa, priorizar las necesidades del usuario y mantener una comunicación constante entre los miembros del equipo. Cada tarea se gestionará como una unidad independiente que se completará en ciclos de desarrollo. Esto nos permitirá mantener un enfoque ágil y responder de manera efectiva a los cambios y retroalimentación a lo largo del proyecto.
 
 ## Roles del Equipo
 
@@ -67,12 +66,25 @@ El equipo sigue una metodología de trabajo orientada a Scrum, con reuniones dia
 
 ## Licencias
 
-- **Código:** [ ]
-- **Documentación:** [ ]
-
-## Instrucciones de Configuración
-
-
+- **Código:**
+  <div class="footer-license">
+            <p>&copy; 2023 Todos los derechos reservados. | Quinielas Deportivas
+                <span xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms">
+                    <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank"
+                        rel="license noopener noreferrer" style="display:inline-block;">
+                        CC BY-NC-ND 4.0
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1">
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1">
+                    </a>
+                </span>
+            </p>
+        </div>
 
 ## Enlaces Relevantes
 
