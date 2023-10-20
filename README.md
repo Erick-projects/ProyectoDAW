@@ -90,3 +90,10 @@ Este enfoque de Scrum nos permitirá abordar nuestro proyecto de manera iterativ
 
 - [Notion - Tablero de Proyecto](https://www.notion.so/2b042096659846ca96266b0ae8a925ec?v=a458cccedfaf4a69b10f50bf6677bfed&pvs=4)
 - [Repositorio en GitHub](https://github.com/Erick-projects/ProyectoDAW.git)
+  
+![Continuación Pantalla  Principal](https://github.com/Erick-projects/ProyectoDAW/assets/124595071/c09a45ca-a0de-4474-aada-ce7c986615e5)
+![Login](https://github.com/Erick-projects/ProyectoDAW/assets/124595071/6d3a595b-a6a3-407e-9683-abf023ebb260)
+![Pantalla Principal](https://github.com/Erick-projects/ProyectoDAW/assets/124595071/297d1206-b3e5-49be-8df9-63ab4173c564)
+![Nuevo Torneo](https://github.com/Erick-projects/ProyectoDAW/assets/124595071/5110a3dc-d6ef-4afe-8a31-02b5b6c0a5d5)
+![Predicciones](https://github.com/Erick-projects/ProyectoDAW/assets/124595071/c1eb1e46-4a03-4e4b-a1c8-22173d123d33)
+![Nosotros](https://github.com/Erick-projects/ProyectoDAW/assets/124595071/5d786caf-dd74-4fb3-8567-b3d7406dc81b)
