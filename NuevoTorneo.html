@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuevo Torneo</title>
+    <link rel="icon" href="img/logotorneo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/NuevoTorneo.css" />
+    
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!--custom css file cdn link-->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <!-- Encabezado-->
+ <header class="header">
+  
+  <a href="#" class="logo"><i class="fas fa-futbol"></i> Quinielas Deportivas</a>
+
+  <form action="" class="search-form">
+      <input type="search" name="" placeholder="Buscar..." id="searchBox">
+      <label for="searchBox" class="fas fa-search"></label>
+  </form>
+
+  <div class="icons">
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-moon" id="theme-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+      <div class="fas fa-bars" id="menu-btn"></div>
+  </div>
+
+  <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#packages">Futbol</a>
+      <a href="#services">Baloncesto</a>
+      <a href="#princing">Formula 1</a>
+      <a href="#review">UFC</a>
+  </nav>
+
+  <form action="" class="login-form">
+
+      <div class="inputBox">
+          <span>Nombre del usuario</span>
+          <input type="text" placeholder="Ingresa tu nombre">
+      </div>
+
+      <div class="inputBox">
+          <span>contraseña</span>
+          <input type="password" placeholder="Ingresa tu contraseña">
+      </div>
+
+      <div class="remember">
+          <input type="checkbox" name="" id="login-remember">
+          <label for="login-remember">Recordar</label>
+      </div>
+
+      <input type="submit" class="btn" value="login">
+
+  </form>
+
+ </header>
+<!-- Formulario-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<body>
+    <form id="torneoForm">
+     <h1 id="Formulario_titulo">Formulario Nuevo Torneo</h1>
+      <label for="nombreTorneo">Nombre del torneo</label>
+      <input type="text" id="nombreTorneo" name="nombreTorneo" required><br>
+      
+      <label for="equipo">Equipo</label>
+      <input type="text" id="equipo" name0="equipo" required><br>
+
+      <label for="directorTecnico">Director Tecnico</label>
+      <input type="text" id="directorTecnico" name="directorTecnico" required><br>
+
+      <label for="pais">Pais</label>
+      <input type="text" id="pais" name="pais" required><br>
+      
+      
+      <input type="submit" value="Agregar equipo">
+  </form>
+
+    <h2>¡su equipo ha sido registrado con exito!</h2>
+    <table id="resultsTable">
+      <thead>
+        <tr>
+          <th>Nombre del torneo</th>
+          <th>Equipo</th>
+          <th>Director Tecnico</th>
+          <th>Pais</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Aqui se mostraran los datos añadidos sobre el Nuevo torneo y sus equipos -->
+      </tbody>
+    </table>
+    <script src="js/script.js"></script>
+    <script src="js/NuevoTorneo.js"></script>
+  </body>
+  <footer class="footer">
+    <div class="footer-container">
+        <!-- Columna 1 -->
+        <div class="footer-column">
+            <!-- Información de Contacto -->
+            <h3>Contacto</h3>
+            <p>Correo electrónico: contacto@quinielas.com</p>
+            <p>Teléfono: (503) 7037-6970</p>
+
+            <!-- Enlaces Relevantes -->
+            <h3>Enlaces Relevantes</h3>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="/quinielas">Quinielas Disponibles</a></li>
+                <li><a href="/resultados">Resultados Anteriores</a></li>
+                <li><a href="/reglas">Reglas del Juego</a></li>
+            </ul>
+        </div>
+</html>
