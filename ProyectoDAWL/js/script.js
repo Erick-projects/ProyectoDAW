@@ -29,14 +29,22 @@ window.onscroll = () =>{
 }
 
 let themeBtn = document.querySelector('#theme-btn');
+let h5Elements = document.querySelectorAll('h5'); 
 
 themeBtn.onclick = () =>{
     themeBtn.classList.toggle('fa-sun');
 
     if(themeBtn.classList.contains('fa-sun')){
         document.body.classList.add('active');
-    } else{
+        h5Elements.forEach((h5) => {
+            h5.style.color = 'white';
+        });
+    }
+    else{
         document.body.classList.remove('active');
+         h5Elements.forEach((h5) => {
+            h5.style.color = 'black';
+        });
     }
 };
 
@@ -59,3 +67,8 @@ function showSlide(index) {
 setInterval(nextSlide, 5000);
 
 showSlide(slideIndex);
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {});
+  });
