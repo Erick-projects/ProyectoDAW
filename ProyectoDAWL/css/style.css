@@ -400,67 +400,97 @@ section .btn{
         font-size: 50%;
     }
 }
-/********************************************************** Estilos de palmares ********************************************************/
+/********************************************************** Estilos de notones y palmares ********************************************************/
 
-*{
-    margin: 0;
-    padding: 0;
-}
-.btn {
-    background-color: #1ea4cd !important;
-    width: 100%;
-    text-align: left;
-    height: 50px;
-    font-size: 25px;
-    padding: 5px;
-    color:white;
-}
-
-/* Color lista*/
-.dropdown-content li > a, .dropdown-content li > span {
-    color:black !important;
-    background-color:lightblue;
-}
-
-.dropdown-content {
-    top: 100% !important; /* Muestra la lista debajo del botón */
-}
-
-.dropdown-content li:hover > a, .dropdown-content li:hover > span {
-    background-color: #7dc4dc !important;
-    color: blue !important;
-}
-
-.btn:hover {
-    background-color: hsl(194, 100%, 20%)  !important; 
-}
-
-.center-button {
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    justify-content: center;
 }
 
-.row{
-    margin: 20px;
-    padding: 5px;
+.col {
+    flex: 1;
+    padding: 10px;
 }
-
 .btn-floating {
-    width: 70px !important;
-    height: 70px !important;
-    background-color:navy !important;
-    color: #fff; 
-    font-size: 6rem;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:#2e2eef;
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    margin: 25px;
+    margin-bottom: 0;
 }
-
-.btn-floating:hover {
-    background-color: darkblue !important;
+.btn-floating i {
+    font-size: 50px;
+    padding: 15px;
 }
-
-.btn-floating i.material-icons {
-    font-size: 40px; 
-    padding: 5px;
+.button-container {
+    text-align: center;
+    margin: 0 10px; 
+}
+.container-center{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h5 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-btn {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 1000px;
+    height: 50px;
+    text-align: left;
+    position: relative;
+}
+.dropdown-btn i{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.custom-divider {
+    border-top: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 0;
+    list-style-type: none;
+}
+.dropdown-content {
+    background-color: #7abaef;
+    width: 1000px;
+    list-style: none;
+    text-align: left;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    font-size: 15px;
+}
+.dropdown-content a:hover {
+    background-color: #61b2f4;
+    color:#fff;
+    font-size: 20px;
 }
 
 /****************************************** Estilos para el footer ********************************************************************************/
