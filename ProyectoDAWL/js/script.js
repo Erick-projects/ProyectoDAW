@@ -68,7 +68,24 @@ setInterval(nextSlide, 5000);
 
 showSlide(slideIndex);
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.dropdown-trigger');
-    var instances = M.Dropdown.init(elems, {});
-  });
+//activar el menú desplegable
+const dropdownButton = document.getElementById('dropdown-btn');
+const dropdownContent = document.getElementById('dropdown1');
+
+dropdownContent.style.display = 'none'; //no activarlo al iniciar
+
+dropdownButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (dropdownContent.style.display === 'block') {
+        dropdownContent.style.display = 'none';
+    } else {
+        dropdownContent.style.display = 'block';
+    }
+});
+
+// Cerrar si se hace clic en otro lugar
+document.addEventListener('click', (event) => {
+    if (event.target !== dropdownButton && event.target !== dropdownContent) {
+        dropdownContent.style.display = 'none';
+    }
+});
