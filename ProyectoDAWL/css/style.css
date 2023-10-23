@@ -1,4 +1,3 @@
-/********************************************************** Estilos para header y slider ********************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
 
 :root{
@@ -403,6 +402,7 @@ section .btn{
         font-size: 50%;
     }
 }
+
 /********************************************************** Estilos de botones y palmares ********************************************************/
 
 .container {
@@ -425,7 +425,7 @@ section .btn{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color:#2e2eef;
+    background-color:#1ea4cd;
     color: #fff;
     text-decoration: none;
     line-height: 60px;
@@ -446,6 +446,7 @@ section .btn{
     padding: 0 20px;
 }
 h5 {
+    color: #1ea4cd;
     font-size: 1.5em;
     margin-bottom: 30px;
 }
@@ -478,7 +479,7 @@ h5 {
     list-style-type: none;
 }
 .dropdown-content {
-    background-color: #59b3cf;
+    background-color: #1ea4cd;
     width: 1000px;
     list-style: none;
     text-align: left;
@@ -491,12 +492,13 @@ h5 {
     font-size: 15px;
 }
 .dropdown-content a:hover {
-    background-color: #40a9c9;
+    background-color: #1ea4cd;
     color:#fff;
     font-size: 20px;
 }
 
 /****************************************** Estilos para el footer ********************************************************************************/
+
 .footer {
     background: var(--orange);
     padding: 1rem 0.5rem;
