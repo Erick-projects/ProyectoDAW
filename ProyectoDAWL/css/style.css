@@ -475,7 +475,7 @@ h5 {
     list-style-type: none;
 }
 .dropdown-content {
-    background-color: #7abaef;
+    background-color: #59b3cf;
     width: 1000px;
     list-style: none;
     text-align: left;
@@ -488,7 +488,7 @@ h5 {
     font-size: 15px;
 }
 .dropdown-content a:hover {
-    background-color: #61b2f4;
+    background-color: #40a9c9;
     color:#fff;
     font-size: 20px;
 }
