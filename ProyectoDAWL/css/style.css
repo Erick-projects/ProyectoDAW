@@ -98,14 +98,17 @@ section .btn{
 
 .header{
     position: fixed;
-    top: 0; left: 0; right: 0;
-    background: var(--bg--color-1);
-    box-shadow: var(--box-shadow);
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-color-1);
+    box-shadow: var(--bg-shadow);
     padding: 1.5rem 7%;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: background 0.3s;
 }
 
 .header .logo{
