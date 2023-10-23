@@ -29,22 +29,14 @@ window.onscroll = () =>{
 }
 
 let themeBtn = document.querySelector('#theme-btn');
-let h5Elements = document.querySelectorAll('h5'); 
 
 themeBtn.onclick = () =>{
     themeBtn.classList.toggle('fa-sun');
 
     if(themeBtn.classList.contains('fa-sun')){
         document.body.classList.add('active');
-        h5Elements.forEach((h5) => {
-            h5.style.color = 'white';
-        });
-    }
-    else{
+    } else{
         document.body.classList.remove('active');
-         h5Elements.forEach((h5) => {
-            h5.style.color = 'black';
-        });
     }
 };
 
@@ -87,5 +79,5 @@ dropdownButton.addEventListener('click', (e) => {
 document.addEventListener('click', (event) => {
     if (event.target !== dropdownButton && event.target !== dropdownContent) {
         dropdownContent.style.display = 'none';
-    }
+    }
 });
