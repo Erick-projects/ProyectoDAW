@@ -5,10 +5,10 @@
   margin: auto;
   margin-top: 0px;
   padding: 40px;
-  box-shadow: 0 0 5px 5px rgba(4, 73, 105, 0.7);
+  box-shadow: 0 0 5px 5px #1ea4cd;
   position: relative;
   border-right: 50px;
-  color: #080808;
+  color: #1ea4cd;
 }
 .torneos h1 {
   font-family: sans-serif;
@@ -79,7 +79,7 @@ th {
 }
 tbody {
   padding: 60px;
-  background-color: rgb(6, 108, 192);
+  background-color: #1ea4cd;
   color: #fff;
   text-align: center;
   font-family: sans-serif;
