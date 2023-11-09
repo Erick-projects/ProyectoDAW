@@ -403,7 +403,7 @@ section .btn{
     }
 }
 
-/********************************************************** Estilos de botones y palmares ********************************************************/
+/********************************************************** Estilos de boton deportes ********************************************************/
 
 .container {
     display: flex;
@@ -493,7 +493,19 @@ h5 {
 }
 .dropdown-content a:hover {
     background-color: #1ea4cd;
+    font-size: 20px;
+}
+.texto:hover{
     color:#fff;
+    font-size: 25px; 
+}
+.oculto li {
+    padding: 8px;
+    font-size: 15px;
+}
+
+.oculto li:hover {
+    color: #f0f0f0;
     font-size: 20px;
 }
 
