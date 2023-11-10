@@ -22,7 +22,15 @@ document.getElementById("torneo").addEventListener("submit", function (event) {
   cell2.innerHTML = equipo;
   cell3.innerHTML = directorTecnico;
   cell4.innerHTML = pais;
+  cell5.innerHTML =
+    '<button class="btn-danger"onclick="Eliminarfila(this)">Eliminar</button>';
 
   // Limpiar el formulario
   document.getElementById("torneo").reset();
+  
+  // Función para eliminar un equipo agregado a un nuevo torneo
+  function Eliminarfila(buttonEliminar) {
+    var fila = buttonEliminar.parentNode.parentNode;
+    fila.parentNode.removeChild(fila);
+  }
 });
