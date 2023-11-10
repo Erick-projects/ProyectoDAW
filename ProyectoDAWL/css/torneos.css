@@ -98,6 +98,16 @@ tbody {
   padding: 8px;
   text-align: center;
 }
+button {
+  background: #043d6b;
+  color: rgb(228, 235, 236);
+  position: relative;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  overflow: hidden;
+}
 
 /****************************************** Estilos para el footer ********************************************************************************/
 
