@@ -357,7 +357,11 @@ h2{
   color: hsl(194, 74%, 46%);
 font-size: 50px;
 }
-
+.container-row{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer {
   background: hsl(194, 74%, 46%);
