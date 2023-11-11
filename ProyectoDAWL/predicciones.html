@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quinielas Deportivas</title> 
+    <title>Quinielas Deportivas</title>
     <link rel="icon" href="img/logo.jpg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!--font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!--custom css file cdn link-->
@@ -17,37 +17,38 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
-<!--header inicio-->
+    <!--header inicio-->
 
-<header class="header">
+    <header class="header">
 
-    <a href="#" class="logo"><i class="fas fa-futbol"></i> Quinielas Deportivas</a>
+        <a href="#" class="logo"><i class="fas fa-futbol"></i> Quinielas Deportivas</a>
 
-    <form action="" class="search-form">
-        <input type="search" name="" placeholder="Buscar..." id="searchBox">
-        <label for="searchBox" class="fas fa-search"></label>
-    </form>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Buscar..." id="searchBox">
+            <label for="searchBox" class="fas fa-search"></label>
+        </form>
 
-    <div class="icons">
-        <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-moon" id="theme-btn"></div>
-        <div class="fas fa-user" id="login-btn"></div>
-        <div class="fas fa-bars" id="menu-btn"></div>
-    </div>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-moon" id="theme-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
 
-    <nav class="navbar">
-        <a href="index.html">home</a>
-        <a href="torneos.html">Nuevo Torneo</a>
-        <a href="predicciones.html">Predicciones</a>
-        <a href="Nosotros.html">Nosotros</a>
-    </nav>
-    
-    <form class="login-form">
-        <a href="index.php" class="btn" target="_blank">Iniciar sesion con Google</a>
-    </form>
-</header>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="torneos.html">Nuevo Torneo</a>
+            <a href="predicciones.html">Predicciones</a>
+            <a href="Nosotros.html">Nosotros</a>
+        </nav>
+
+        <form class="login-form">
+            <a href="index.php" class="btn" target="_blank">Iniciar sesion con Google</a>
+        </form>
+    </header>
 
     <!-- Contenedor de predicciones -->
     <div class="container-predicciones">
@@ -67,39 +68,54 @@
         <table class="table" id="predictions-table">
             <thead>
                 <tr>
-                    <th>Match</th>
-                    <th>Score</th>
-                    <th>Time</th>
-                    <th>Predictions</th>
+                    <th>Partido</th>
+                    <th>Resultado</th>
+                    <th>Tiempo</th>
+                    <th>Predicciones</th>
                 </tr>
-            </thead>
-            <tbody>
-                <!-- Predicciones se generarán aquí dinámicamente -->
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    <!-- Predicciones se generarán aquí dinámicamente -->
+                </tbody>
+                </table>
     </div>
 
     <!-- Modal de Apuestas -->
     <div id="bet-modal">
         <div class="bet-modal-content">
             <!-- Botón para cerrar el modal -->
-            <span class="close" onclick="closeBetForm()">&times;</span>
+            <span id="close-modal-button" class="close" onclick="closeBetForm">&times;</span>
             <!-- Contenido del formulario de apuestas -->
             <h2>Realizar Apuesta</h2>
+            <br>
             <form id="bet-form">
-                <!-- Campo oculto para almacenar el partido seleccionado -->
-                <input type="hidden" id="selected-match" name="selected-match">
-                
-                <!-- Lista desplegable de equipos -->
+                <label for="sport">Deporte:</label>
+                <select id="sport" name="sport" required>
+                    <!-- Las opciones de deporte se cargarán aquí dinámicamente -->
+                </select>
+
+                <label for="match">Partido:</label>
+                <select id="match" name="match" required>
+                    <!-- Las opciones de partido se cargarán aquí dinámicamente -->
+                </select>
+
                 <label for="team">Equipo:</label>
-                <select id="team" name="team" required></select>
+                <select id="team" name="team" required>
+                    <!-- Las opciones de equipo se cargarán aquí dinámicamente -->
+                </select>
 
-                <!-- Campo para el monto -->
-                <label for="amount">Monto:</label>
-                <input type="number" id="amount" name="amount" required>
+                <label for="prediction">Predicción:</label>
+                <select id="prediction" name="prediction" required>
+                    <option value="Ganar">Ganar</option>
+                    <option value="Empate">Empate</option>
+                    <option value="Perder">Perder</option>
+                </select>
 
-                <!-- Botón para realizar la apuesta -->
-                <button type="submit" class="bet-button">Realizar Apuesta</button>
+                <label for="bet">Apuesta:</label>
+                <input type="text" id="bet" name="bet" placeholder="Escribe tu apuesta" required>
+
+                <button type="submit" class="submit-button">Realizar Apuesta</button>
+
             </form>
         </div>
     </div>
